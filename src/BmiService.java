@@ -1,7 +1,6 @@
 public class BmiService {
-    public int calculate (int WeightKg, double HeightMeter){
-        double heightMeter = HeightMeter;
-        double bmi = WeightKg/ Math.pow (HeightMeter,2);
+    public int calculate (int weightKg, double heightMeter){
+        double bmi = weightKg/ Math.pow (heightMeter,2);
         return (int) bmi;
     }
 }
